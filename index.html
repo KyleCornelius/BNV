@@ -14,10 +14,11 @@
 
 <body>
 
+  <!-- nav -->
   <header class="pb-5">
     <nav class="navbar navbar-expand-lg bg-light fixed-top" id="mainNav">
       <div class="container">
-        <div class="navbar-brand text-uppercase font-weight-bold">Company Name</div>
+        <div class="navbar-brand text-uppercase font-weight-bold">BNV Logo</div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,7 +33,7 @@
               <a class="nav-link text-uppercase font-weight-bold js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item d-none d-lg-block">
-              <a class="nav-link text-uppercase font-weight-bold js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link text-uppercase font-weight-bold js-scroll-trigger" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-uppercase font-weight-bold js-scroll-trigger" href="#contact">Contact</a>
@@ -48,6 +49,40 @@
     <div class="card border-0 shadow my-5">
       <div class="card-body p-5" style="min-height: 1700px">
 
+        <!-- cover -->
+        <div class="masthead" id="home"></div>
+        <div class="logo"></div>
+
+        <!--contact us-->
+        <div class="container mt-5">
+          <form>
+            <h3>Contact Us</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                    style="width: 100%; height: 150px;"></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
       </div>
     </div>
   </div>
@@ -57,9 +92,8 @@
     <div class="d-flex justify-content-center center">
       <a href="" class=" footerLink" target="_blank"><i class="fab fa-yelp"></i> Yelp </a>
       <a href="" class=" footerLink ml-5" target="_blank"><i class="fab fa-instagram"></i> Instagram </a>
-      <!-- <a href="link" class="footerLink ml-5" target="_blank"><i class="fas fa-file-download"></i> Resume</a> -->
     </div>
-    <p class="d-flex justify-content-center reserved small mt-5">© 2020 Company Name. All rights reserved.</p>
+    <p class="d-flex justify-content-center reserved small mt-5">© 2020 BNV. All rights reserved.</p>
   </footer>
 
 
