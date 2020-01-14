@@ -1,0 +1,45 @@
+body {
+  background: url('/img/marbleBackground.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* -- footer -- */
+.footer {
+  background-color: var(--lightBlack);
+  color: var(--white);
+}
+
+a.footerLink {
+  color: var(--white);
+  opacity: .75;
+}
+
+a.footerLink:hover {
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: var(--white);
+}
+
+.fa-yelp,
+.fa-instagram {
+  font-size: 25px;
+  color: var(--white);
+  opacity: .75;
+}
+
+.reserved {
+  color: var(--white);
+  font-size: 11px;
+  opacity: .75;
+}
+
+/* -- root -- */
+:root {
+  --white: #fff;
+  --black: #000;
+  --lightBlack: #303030;
+  --lightGrey: #888b8d;
+}
