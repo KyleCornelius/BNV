@@ -6,6 +6,7 @@ body {
   -o-background-size: cover;
 }
 
+/* cover photo */
 .masthead {
   height: 50vh;
   min-height: 200px;
@@ -15,12 +16,25 @@ body {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-device-width : 480px) {
+  .masthead {
+    height: 33vh;
+  }
+}
+
 .logo {
   height: 100px;
   transform: translate(0, -50%);
   background-image: url('https://via.placeholder.com/800x100');
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/*-- gallery page --*/
+.fa-chevron-left {
+  font-size: 25px;
+  color: var(--lightBlack);
+  opacity: .75;
 }
 
 /* -- footer -- */
