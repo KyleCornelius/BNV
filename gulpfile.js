@@ -33,13 +33,16 @@ function modules() {
   // Bootstrap
   var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
     .pipe(gulp.dest('./vendor/bootstrap'));
+  // jquery.easing
+  var jqueryeasing = gulp.src('./node_modules/jquery.easing/jquery.easing.min.js')
+    .pipe(gulp.dest('./vendor/jqueryeasing'));
   // jQuery
   var jquery = gulp.src([
       './node_modules/jquery/dist/*',
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'));
-  return merge(bootstrap, jquery);
+  return merge(bootstrap, jqueryeasing, jquery);
 }
 
 // Watch files
