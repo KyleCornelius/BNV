@@ -1,3 +1,4 @@
+/* reusable */
 body {
   background: url('/img/marbleBackground.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -47,6 +48,49 @@ a.nav-link:hover {
   background-repeat: no-repeat;
 }
 
+/*-- about page --*/
+
+/* services */
+.card1 {
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.card2 {
+  border: 0px;
+}
+
+.card3 {
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.card4 {
+  border-left: 0px;
+  border-bottom: 0px;
+}
+
+.card5 {
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.card6 {
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.card-body:hover>.card-title {
+  transform: scale(1.5);
+}
+
+.card-body>.card-title {
+  transition: transform 0.35s ease;
+}
+
 /*-- gallery page --*/
 .fa-chevron-left {
   font-size: 25px;
@@ -70,16 +114,6 @@ a.footerLink:hover {
   text-decoration: underline;
   text-decoration-color: var(--white);
 }
-
-/* fa icons */
-.card-body:hover>.card-title {
-  font-size: 3.5em;
-}
-
-.card-body>.card-title {
-  transition: font-size 0.35s ease;
-}
-
 
 .fa-instagram,
 .fa-yelp {
