@@ -12,7 +12,7 @@ body {
   opacity: .75;
 }
 
-/* nav bar */
+/* -- navbar -- */
 a.nav-link:hover {
   color: var(--white);
   text-decoration: underline;
@@ -24,7 +24,7 @@ a.nav-link:hover {
   max-width: 400px;
 }
 
-/* cover photo */
+/* -- copver photo -- */
 .masthead {
   height: 50vh;
   min-height: 200px;
@@ -50,7 +50,11 @@ a.nav-link:hover {
 
 /*-- about page --*/
 
-/* services */
+.noBorder {
+  border: 0px;
+}
+
+/* -- services -- */
 .card1 {
   border-left: 0px;
   border-top: 0px;
@@ -96,6 +100,58 @@ a.nav-link:hover {
   font-size: 25px;
   color: var(--lightBlack);
   opacity: .75;
+}
+
+/* -- contact us -- */
+
+/*size of field*/
+.user-input-wrp {
+  position: relative;
+  width: 80%;
+}
+
+/*change to line style*/
+.user-input-wrp .inputText {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+}
+
+.form-control:focus {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  box-shadow: none;
+}
+
+.textArea:focus {
+  width: 100%;
+  outline: 1px;
+  border: 1px solid #ced4da;
+  box-shadow: none;
 }
 
 /* -- footer -- */
