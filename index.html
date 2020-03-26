@@ -32,7 +32,10 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger offwhite" href="#about">About</a>
             </li>
-            <li class="nav-item d-none d-lg-block">
+            <li class="nav-item d-md-none">
+              <a class="nav-link js-scroll-trigger offwhite" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger offwhite" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
@@ -63,8 +66,9 @@
                 positioned to handle stuff. Lorem ipsum dolor sit amet, nam cu utinam disputationi. Vim id diam
                 legimus denique, mei ea summo probatus tincidunt. Lorem ipsum dolor sit amet
               </p>
-            </div>
-            <div class="col-md-6 offset-1">
+            </div id="services">
+            <!--desktop/tablet only-->
+            <div class="col-md-6 offset-1 d-none d-md-block">
               <div class="row">
                 <div class="card noBorder">
                   <div class="card-body">
@@ -90,9 +94,8 @@
           </div>
         </div>
 
-        <!--services-->
-        <div class="container text-center mt-5">
-
+        <!--services desktop/tablet-->
+        <div class="container text-center mt-5 d-none d-md-block">
           <div class="row m-0">
             <div class="col-md-4 p-0">
               <div class="card rounded-0 card1">
@@ -119,7 +122,6 @@
               </div>
             </div>
           </div>
-
           <div class="row m-0">
             <div class="col-md-4 p-0">
               <div class="card rounded-0 card4">
@@ -146,7 +148,53 @@
               </div>
             </div>
           </div>
+        </div>
 
+        <!--services mobile-->
+        <div class="container text-center mt-5 d-md-none" id="services">
+          <h3>Services</h3>
+          <div class="row">
+            <div class="card noBorder">
+              <div class="card-body p-2">
+                <i class="far fa-edit"></i> &nbsp Design
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card noBorder">
+              <div class="card-body p-2">
+                <i class="fas fa-wrench"></i> &nbsp Repair
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card noBorder">
+              <div class="card-body p-2">
+                <i class="fas fa-home"></i> &nbsp Remodel
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card noBorder">
+              <div class="card-body p-2">
+                <i class="fas fa-house-damage"></i> &nbsp Home Inspection
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card noBorder">
+              <div class="card-body p-2">
+                <i class="far fa-clipboard"></i> &nbsp General Contracting
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card noBorder">
+              <div class="card-body p-2">
+                <i class="fas fa-hammer"></i> &nbsp Carpentry
+              </div>
+            </div>
+          </div>
         </div>
 
         <!--Carousel-->

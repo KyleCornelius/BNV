@@ -72,7 +72,7 @@ a.nav-link:hover {
   border: 0px;
 }
 
-/* -- services -- */
+/* -- services desktop/tablet -- */
 .card1 {
   border-left: 0px;
   border-top: 0px;
@@ -122,13 +122,11 @@ a.nav-link:hover {
 
 /* -- contact us -- */
 
-/*size of field*/
 .user-input-wrp {
   position: relative;
   width: 80%;
 }
 
-/*change to line style*/
 .user-input-wrp .inputText {
   width: 100%;
   outline: none;
